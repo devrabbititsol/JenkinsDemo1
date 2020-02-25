@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Main Test Suite" duration-ms="81553" started-at="2020-02-25T04:39:04Z" finished-at="2020-02-25T04:40:26Z">
+    <groups>
+    </groups>
+    <test name="chrometest" duration-ms="81553" started-at="2020-02-25T04:39:04Z" finished-at="2020-02-25T04:40:26Z">
+      <class name="web.sqe_demo.parabank.webtestclasses.TC_Parabank">
+        <test-method status="PASS" signature="browserName(java.lang.String)[pri:0, instance:web.sqe_demo.parabank.webtestclasses.TC_Parabank@65e2dbf3]" name="browserName" is-config="true" duration-ms="19" started-at="2020-02-25T04:39:04Z" finished-at="2020-02-25T04:39:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserName -->
+        <test-method status="PASS" signature="browserName(java.lang.String)[pri:0, instance:web.sqe_demo.parabank.webtestclasses.TC_verifyaccount_fundtransfer@4f970963]" name="browserName" is-config="true" duration-ms="0" started-at="2020-02-25T04:39:04Z" finished-at="2020-02-25T04:39:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserName -->
+        <test-method status="PASS" signature="screensTest()[pri:0, instance:web.sqe_demo.parabank.webtestclasses.TC_Parabank@65e2dbf3]" name="screensTest" duration-ms="40925" started-at="2020-02-25T04:39:05Z" finished-at="2020-02-25T04:39:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screensTest -->
+      </class> <!-- web.sqe_demo.parabank.webtestclasses.TC_Parabank -->
+      <class name="com.fileupload.ReportUpload">
+        <test-method status="PASS" signature="uploadReport()[pri:0, instance:com.fileupload.ReportUpload@887af79]" name="uploadReport" is-config="true" duration-ms="4190" started-at="2020-02-25T04:40:26Z" finished-at="2020-02-25T04:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadReport -->
+      </class> <!-- com.fileupload.ReportUpload -->
+      <class name="web.sqe_demo.parabank.webtestclasses.TC_verifyaccount_fundtransfer">
+        <test-method status="PASS" signature="screensTest()[pri:0, instance:web.sqe_demo.parabank.webtestclasses.TC_verifyaccount_fundtransfer@4f970963]" name="screensTest" duration-ms="40588" started-at="2020-02-25T04:39:45Z" finished-at="2020-02-25T04:40:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screensTest -->
+      </class> <!-- web.sqe_demo.parabank.webtestclasses.TC_verifyaccount_fundtransfer -->
+    </test> <!-- chrometest -->
+  </suite> <!-- Main Test Suite -->
+</testng-results>
